@@ -6,7 +6,7 @@ terraform {
     }
   }
    backend "s3" {
-    bucket = "test-bucket"
+    bucket = "myawsbucket-testing-permissions"
     key    = "testing"
     region = "us-east-1"
     dynamodb_table="expense-project-dev-bucket-locking"
